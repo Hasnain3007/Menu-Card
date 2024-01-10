@@ -1,0 +1,36 @@
+* {
+    font-family: 'Agbalumo', system-ui;
+    padding: 0%;
+    margin: 0%;
+}
+
+.head {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(3, 3, 139);
+}
+
+.head h1 {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: auto;
+}
+.navbar div :hover{
+    color: rgb(3, 3, 139);
+    background-color: white;
+}
+.cant1{
+    display: flex;
+    color: white;
+    border-color: rgb(3, 3, 139);
+    font-size: 25px;
+    background:rgb(3, 3, 139);
+    padding: auto;
+ 
+}
+.cant1 a{
+    text-decoration: none;
+    margin: 140px;
+    color: white;
+}
