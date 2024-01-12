@@ -13,6 +13,9 @@
     color: white;
     text-shadow: 0.7vw 0.5vw black;
 }
+.head h1{
+    font-size: 8vw;
+}
 
 /* Head CSS End */
 /* Navbar CSS Start From Here */
@@ -154,3 +157,4 @@ ul {
     color: black;
     text-decoration: none;
 }
+
