@@ -1,36 +1,156 @@
 * {
+    padding: 0vw;
+    margin: 0vw;
     font-family: 'Agbalumo', system-ui;
-    padding: 0%;
-    margin: 0%;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
+/* Head CSS Start From Here */
 .head {
-    padding: 0%;
-    margin: 0%;
-    background-color: rgb(3, 3, 139);
+    background: rgb(110, 44, 0);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0.7vw 0.5vw black;
 }
 
-.head h1 {
-    font-size: 100px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin-top: auto;
+/* Head CSS End */
+/* Navbar CSS Start From Here */
+
+.cant1 {
+    display: flex;
+    background-color: rgb(110, 44, 0);
+    border: 2px solid rgb(110, 44, 0);
 }
-.navbar div :hover{
-    color: rgb(3, 3, 139);
+
+.cant1 :hover {
+    color: rgb(110, 44, 0);
     background-color: white;
 }
-.cant1{
-    display: flex;
+
+.cant1 a {
     color: white;
-    border-color: rgb(3, 3, 139);
-    font-size: 25px;
-    background:rgb(3, 3, 139);
-    padding: auto;
- 
-}
-.cant1 a{
+    font-size: 2vw;
     text-decoration: none;
-    margin: 140px;
+}
+
+.sss {
+    text-align: center;
+    width: 25%;
+}
+
+/* Navbar CSS End */
+
+
+/* Food DetaILS Start HEre */
+
+.details {
+    font-size: 5vw;
     color: white;
+}
+
+span :hover {
+    background-color: white;
+}
+
+.ddd {
+    margin-top: 5vw;
+}
+
+.four {
+    font-size: 2vw;
+    height: 10vw;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    border: 2px solid rgb(110, 44, 0);
+
+}
+
+.four tr {
+    text-align: center;
+    background-color: rgb(110, 44, 0);
+}
+
+.four tr :hover {
+    background-color: white;
+    font-size: 2vw;
+    color: rgb(110, 44, 0);
+}
+
+.four tr td {
+    border: 2px solid rgb(110, 44, 0);
+
+}
+
+.four tr a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Food DetaILS End */
+/* Section Start HEre */
+
+.dd {
+    background-color: rgb(110, 44, 0);
+    color: White;
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.dd :hover {
+    background-color: white;
+    color: rgb(110, 44, 0);
+    border: 2px solid rgb(110, 44, 0);
+}
+
+.marquee {
+    background-color: rgb(110, 44, 0);
+
+}
+
+.marquee :hover {
+    background-color: white;
+    color: rgb(110, 44, 0);
+
+}
+
+.burger {
+    color: white;
+    font-size: 5vw;
+}
+
+ul {
+    color: rgb(110, 44, 0);
+    margin-top: 5vw;
+    margin-left: 2.5vw;
+    text-align: center;
+    list-style-type: none;
+}
+
+.ultab {
+    width: 100%;
+}
+/* Fotter Start From Here */
+.foot {
+    height: 30vw;
+    background-color: rgb(110, 44, 0);
+}
+.footerr{
+    color: white;
+    width: 100%;
+    margin-left: -8vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+}
+.footerr a{
+    color: white;
+    text-decoration: none;
+}
+.footerr a:hover{
+    color: black;
+    text-decoration: none;
 }
